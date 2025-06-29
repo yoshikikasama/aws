@@ -1,0 +1,15 @@
+__pycache__/
+.DS_Store
+*.csv
+*.xlsx
+mysql-data/
+# Terraform状態ファイルとバックアップ
+*.tfstate
+*.tfstate.*
+# Terraformのロックファイル
+.terraform.lock.hcl
+# Terraformの一時ディレクトリ
+.terraform
+# 機密情報（環境変数や認証情報などを記載したファイルがあればここに追加）
+*.tfvars
+*.tfvars.json
